@@ -13,7 +13,7 @@ export default function Header() {
     "
     >
       <div className="flex h-20 w-full  space-x-6 items-center">
-        <img className="w-[150px]" src={logo} />
+        <img className="w-[150px]" alt="logo" src={logo} />
         <div
           className=" justify-evenly  flex-row space-x-6 h-full 
         

@@ -18,9 +18,9 @@ export default function InfoContainer({
     </div>
   );
   const imageContent =
-    image != undefined ? (
+    image !== undefined ? (
       <div className=" w-full">
-        <img className="w-full" src={image} />
+        <img className="w-full" alt="" src={image} />
       </div>
     ) : null;
   return (
